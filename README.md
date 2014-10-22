@@ -8,8 +8,7 @@ This repository is the software server engine (currently written in Node.js) whi
 The webpage for the original event is [here](http://www.voltvision.com/projects/winter-night-lights-at-audubon/).
 
 
-The blog series which explains the animal construction and design is here:
-http://www.voltvision.com/beaglebone-black-and-sounds-of-the-night-installment-1-of-7/
+The blog series which explains the animal construction and design is [here](http://www.voltvision.com/beaglebone-black-and-sounds-of-the-night-installment-1-of-7/).
 
 Independent from this software repository, a few other things had to happen on the BBB:
 1) The audio WAV file for each of the 5 animals was manually loaded onto each animal at the time of programming.

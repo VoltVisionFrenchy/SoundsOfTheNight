@@ -1,4 +1,4 @@
-Repository Name: Sounds of the Night!
+Repository Name: Sounds of the Night!!
 
 Project Purpose:
 This repository is the software server engine (currently written in Node.js) which allows a Beaglebone Black to read an analog signal representing a light sensor to determine if someone is shining a flashlight at the animal.  If a flashlight is detected, then the BBB outputs a logic high to turn on a Mosfet/LED circuit (causing the animal to light up) and also to play an audio WAV file of an animal sound.

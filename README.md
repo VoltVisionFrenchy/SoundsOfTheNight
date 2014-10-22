@@ -3,10 +3,10 @@ Repository Name: Sounds of the Night!
 Project Purpose:
 This repository is the software server engine (currently written in Node.js) which allows a Beaglebone Black to read an analog signal representing a light sensor to determine if someone is shining a flashlight at the animal.  If a flashlight is detected, then the BBB outputs a logic high to turn on a Mosfet/LED circuit (causing the animal to light up) and also to play an audio WAV file of an animal sound.
 
-[This video](https://www.youtube.com/watch?v=EDCYTjFhtKg&list=UUbAsVdwkd1Kj010x0iF0gYQ) explains the concept very quickly:
+[This video](https://www.youtube.com/watch?v=EDCYTjFhtKg&list=UUbAsVdwkd1Kj010x0iF0gYQ) explains the concept very quickly.
 
-The webpage for the original event is here:
-http://www.voltvision.com/projects/winter-night-lights-at-audubon/
+The webpage for the original event is [here](http://www.voltvision.com/projects/winter-night-lights-at-audubon/).
+
 
 The blog series which explains the animal construction and design is here:
 http://www.voltvision.com/beaglebone-black-and-sounds-of-the-night-installment-1-of-7/

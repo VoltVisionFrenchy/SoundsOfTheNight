@@ -7,6 +7,8 @@ var Player = require('./lib/player');
 //
 // Create the Sensor object
 //
+// If you want to override default properties uncomment it below 
+// on the object initialization
 // Properties
 //   threshold {number} - Sensor threshold - default: 0.9
 //   intervalRate {number} - Sensor reading rate in ms - default: 10
@@ -16,6 +18,7 @@ var Player = require('./lib/player');
 var sensor = new Sensor({
   threshold : 0.47,
   intervalRate : 10,
+  // pin: 'P9_37',
   mock: process.env.MOCK
 });
 
@@ -23,12 +26,15 @@ var sensor = new Sensor({
 //
 // Create the player Object
 //
+// If you want to override default properties uncomment it below 
+// on the object initialization
 // Properties
 //   soundsDir {string} - folder with the sounds - default `sounds`
 //   pin {string} - BeagleBone Black Pin  default: 'P9_42'
 //   mock {boolean} - execute on testing environment
 var player = new Player({
   soundsDir: path.join(__dirname, 'sounds'),
+  // pin: 'P8_8',
   mock: process.env.MOCK
 });
 
